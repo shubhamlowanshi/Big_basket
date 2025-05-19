@@ -1,0 +1,88 @@
+.form-container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: green;
+    font-size: 24px;
+  }
+  
+  .description {
+    color: gray;
+  }
+  
+  .form-card {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-header {
+    background: gray;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    border-radius: 8px 8px 0 0;
+    margin: -20px -20px 20px -20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .file-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .file-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .browse-btn {
+    background: #ccc;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  .create-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .input-field, .file-input, .browse-btn {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .file-input-container {
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+  
